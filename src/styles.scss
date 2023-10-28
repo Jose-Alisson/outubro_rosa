@@ -30,6 +30,8 @@ html{
 body{
   overflow-x: hidden;
   font-size: 1.6rem;
+  background: #232429;
+  color: white;
 }
 
 @media screen and (max-width: 652px) {
@@ -50,3 +52,8 @@ body{
   }
 }
 
+app-root{
+  display: block;
+  width: 100vw;
+  overflow-x: hidden;
+}
